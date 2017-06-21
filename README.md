@@ -22,7 +22,7 @@ pod "JFUIDebugToolLib"
 
 ## Author
 
-jinfeng.du, jinfeng.du@qunar.com
+aler0518
 
 ## License
 
