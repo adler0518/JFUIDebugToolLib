@@ -46,8 +46,8 @@ pod package BZLib.podspec --library --force
 
 其中--library指定打包成.a文件，如果不带上将会打包成.framework文件。--force是指强制覆盖。最终的目录结构如下
 
-|____JFUIDebugToolLib.podspec
-|____ios
-| |____JFUIDebugToolLib.framework
+	|___JFUIDebugToolLib.podspec
+	|___ios
+	| |___JFUIDebugToolLib.framework
 
 需要特别强调的是，该插件通过对引用的三方库进行重命名很好的解决了类库命名冲突的问题。
