@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'JFUIDebugToolLib_Example' do
+  pod 'JFUIDebugToolLib', :path => '../'
+
+  target 'JFUIDebugToolLib_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
