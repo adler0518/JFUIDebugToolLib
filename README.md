@@ -32,15 +32,17 @@ JFUIDebugToolLib is available under the MIT license. See the LICENSE file for mo
 # 打包类库
 需要使用一个cocoapods的插件cocoapods-packager来完成类库的打包。当然也可以手动编译打包，但是过程会相当繁琐。
 
-##安装打包插件
+## 安装打包插件
 终端执行以下命令
 ```ruby
 sudo gem install cocoapods-packager
-```ruby
+```
 
-##打包
+## 打包
 命令很简单，执行
+```ruby
 pod package BZLib.podspec --library --force
+```
 
 其中--library指定打包成.a文件，如果不带上将会打包成.framework文件。--force是指强制覆盖。最终的目录结构如下
 
