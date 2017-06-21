@@ -1,0 +1,6 @@
+framework module JFUIDebugToolLib {
+  umbrella header "JFUIDebugToolLib-umbrella.h"
+
+  export *
+  module * { export * }
+}

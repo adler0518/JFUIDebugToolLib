@@ -1,0 +1,16 @@
+PODS:
+  - JFUIDebugToolLib (0.1.0)
+
+DEPENDENCIES:
+  - JFUIDebugToolLib (from `../`)
+
+EXTERNAL SOURCES:
+  JFUIDebugToolLib:
+    :path: ../
+
+SPEC CHECKSUMS:
+  JFUIDebugToolLib: e4cd3fb2c43ad59bfb075d59f43786e60618ec62
+
+PODFILE CHECKSUM: 3c1aeb1c7204d5e1c96f0bc9faf277ee55073458
+
+COCOAPODS: 1.2.1

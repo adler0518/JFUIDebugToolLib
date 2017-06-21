@@ -7,6 +7,8 @@
 //
 
 #import "JFViewController.h"
+//#import "JFUIDebugToolLib/JFGlobuleWindow.h"
+#import <JFUIDebugToolLib/JFGlobuleWindow.h>
 
 @interface JFViewController ()
 
@@ -18,6 +20,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    [JFGlobuleWindow tete];
 }
 
 - (void)didReceiveMemoryWarning

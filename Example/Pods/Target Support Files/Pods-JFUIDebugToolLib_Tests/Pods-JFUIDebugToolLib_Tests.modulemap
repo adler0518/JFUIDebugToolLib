@@ -1,0 +1,6 @@
+framework module Pods_JFUIDebugToolLib_Tests {
+  umbrella header "Pods-JFUIDebugToolLib_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

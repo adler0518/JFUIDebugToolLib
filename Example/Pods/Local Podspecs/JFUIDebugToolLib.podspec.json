@@ -1,0 +1,22 @@
+{
+  "name": "JFUIDebugToolLib",
+  "version": "0.1.0",
+  "summary": "A short description of JFUIDebugToolLib.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/jinfeng.du/JFUIDebugToolLib",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "jinfeng.du": "jinfeng.du@qunar.com"
+  },
+  "source": {
+    "git": "https://github.com/jinfeng.du/JFUIDebugToolLib.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "JFUIDebugToolLib/Classes/**/*"
+}
